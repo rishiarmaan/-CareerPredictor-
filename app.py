@@ -1,6 +1,6 @@
 import streamlit as st # type: ignore
 import numpy as np # type: ignore
-import joblib # type: ignore
+import joblib # Use only joblib # type: ignore
 import os
 # --- Load model and scaler ---
 model_path = "model_compressed.pkl"
